@@ -13,6 +13,9 @@ public class main {
     
     
     public static void main(String args[]){
+    /**
+     * pruebas para clase lista
+     */
     //listaenlazada lista=new listaenlazada();
     //System.out.println("esta vacia: "+lista.estavacia());
    //lista.agregar_inicio(3);
@@ -29,14 +32,28 @@ public class main {
    //System.out.println("ultimo: "+lista.obtener(lista.size()-1));
    //System.out.println("tamaño: "+lista.size());
    
-   pila pilita=new pila();
-   pilita.push(3);
-   pilita.push(4);
-   pilita.push(5);
-   pilita.push(9);
-   pilita.pick();
-   pilita.poop();
-   pilita.pick();
-   pilita.recorrer();
-   }
+   /**
+    * pruebas para clase pila
+    */
+   //pila pilita=new pila();
+   //pilita.push(3);
+   //pilita.push(4);
+   //pilita.push(5);
+   //pilita.push(9);
+   //pilita.pick();
+   //pilita.poop();
+   //pilita.pick();
+   //pilita.recorrer();
+   
+   cola colita=new cola();
+   colita.agregar(2);
+   colita.agregar(8);
+   colita.agregar(5);
+   colita.agregar(12);
+   colita.agregar(0);
+   colita.agregar(3);
+   colita.eliminar();
+   colita.eliminar();
+   colita.recorrer();
+    }
 }
